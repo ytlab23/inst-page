@@ -43,6 +43,7 @@ header p{
     top: 50px;
     box-shadow: gray 2px 5px 5px 2px;
     border-radius: 10px;
+    left: 0%;
     display: none;
 }
 #menu img{
@@ -51,16 +52,18 @@ header p{
     top: 50px;
 }
               
-.grow{
-    transition: .5s, color .10s;
-        -webkit-transition: .5s, color .10s;
-        -moz-transition: .5s, color .10s;
+.flipSide-360{
+    transition: .9s, color .19s;
+        -webkit-transition: .9s, color .19s;
+        -moz-transition: .9s, color .19s;
 }
-.grow:hover{
-    transform: scale3d(1.5, 1.5, 0.3);
-        -webkit-transform: scale3d(1.5, 1.5, 0.3);
-        -moz-transform: scale3d(1.5, 1.5, 0.3);
+.flipSide-360:active{
+    transform: rotateY(360deg);
+        -webkit-transform: rotateY(360deg);
+        -moz-transform: rotateY(360deg);
 }
+              
+              
               
 
 
@@ -104,6 +107,47 @@ button {
     position: relative;
     top: 30px;
 }
+
+.open-menu {
+    position: absolute;
+    
+    border-radius: 20px;
+    color: white;
+    width: 80%;
+    /* height: 100vh; */
+    display: grid;
+    place-items: center;
+    /* width: 1000px; */
+    right: 0%;
+    padding: 2rem;
+    text-align: left;
+    z-index: 3;
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    top: 10PX;
+}
+.open-menu p{
+    display: block;
+    /* width: 100%; */
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    left: 50%;
+    /* background-color: #f09433; */
+}
+
+              
+.grow{
+    transition: .5s, color .10s;
+        -webkit-transition: .5s, color .10s;
+        -moz-transition: .5s, color .10s;
+}
+.grow:hover{
+    transform: scale3d(1.5, 1.5, 0.3);
+        -webkit-transform: scale3d(1.5, 1.5, 0.3);
+        -moz-transform: scale3d(1.5, 1.5, 0.3);
+}
+              
 
 div p{
     display: inline-block;
@@ -358,6 +402,13 @@ footer img {
 @media (max-width: 657px) {
     .head-base {
         width: 40%;
+    }
+    header p {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    #menu {
+        top: 35px;
     }
     #h1 {
         font-size: 1.5rem;
