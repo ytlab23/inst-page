@@ -253,7 +253,7 @@ footer img {
     }
 }
 
-@media (max-width: 1253px) {
+@media (max-width: 900px) {
     .head-base {
         width: 30%;
     }
@@ -266,7 +266,7 @@ footer img {
     }
 }
 
-@media (max-width: 1090px) {
+@media (max-width: 800px) {
     .header {
         display: block;
     }
