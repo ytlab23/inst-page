@@ -35,6 +35,35 @@ header p{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+#menu {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: 50px;
+    box-shadow: gray 2px 5px 5px 2px;
+    border-radius: 10px;
+    display: none;
+}
+#menu img{
+    width: 40px;
+    height: 40px;
+    top: 50px;
+}
+              
+.grow{
+    transition: .5s, color .10s;
+        -webkit-transition: .5s, color .10s;
+        -moz-transition: .5s, color .10s;
+}
+.grow:hover{
+    transform: scale3d(1.5, 1.5, 0.3);
+        -webkit-transform: scale3d(1.5, 1.5, 0.3);
+        -moz-transform: scale3d(1.5, 1.5, 0.3);
+}
+              
+
+
 button {
     border-radius: 10px;
     border: none;
@@ -46,7 +75,8 @@ button {
     position: fixed;
     cursor: pointer;
     top: 50%;
-    left: 0%;
+    right: 0%;
+    top: 90%;
     background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
     z-index: 2;
 }             
@@ -270,6 +300,10 @@ footer img {
 
 @media (max-width: 800px) {
     .header {
+        display: flex;
+        justify-content: space-between;
+    }
+    #menu {
         display: block;
     }
     .nav-bar {
@@ -280,6 +314,9 @@ footer img {
     }
     .head-base {
         width: 30%;
+    }
+    .element h3 {
+        font-size: 1.2rem;
     }
 
     .main-body {
@@ -299,6 +336,7 @@ footer img {
         display: grid;
         grid-template-columns: 1fr;
         place-items: center;
+        /* line-height: 1.2; */
     }
     #main2 img {
         width: 50px;
@@ -328,6 +366,9 @@ footer img {
         top: -250px;
         font-size: .8rem;
         line-height: 1;
+    }
+    .element h3 {
+        font-size: 1rem;
     }
     #main2 div {
         margin-bottom: 60px;
