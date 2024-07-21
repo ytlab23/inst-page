@@ -398,9 +398,9 @@ footer img {
         width: 100%;
         border-radius: 30px;
     }
-    bottom {
-        font-size: 1rem;
-        padding: 1rem;
+    button {
+        font-size: .9rem;
+        padding: .9rem;
     }
     footer h3 {
         font-size: 2rem;
@@ -442,11 +442,11 @@ footer img {
     #main2 p {
         font-size: .8rem;
     }
-    bottom {
-        font-size: 1rem;
-        padding: 1rem;
+    button {
+        font-size: .8rem;
+        padding: .7rem;
     }
     footer h3 {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 }
