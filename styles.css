@@ -41,7 +41,7 @@ header p{
     width: 40px;
     position: relative;
     top: 50px;
-    box-shadow: gray 2px 5px 5px 2px;
+    box-shadow: whitesmoke 2px 5px 5px 2px;
     border-radius: 10px;
     left: 0%;
     display: none;
@@ -103,14 +103,14 @@ button {
 .nav-bar p, span {
     color: #dc2743;
     font-size: 1rem;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     position: relative;
     top: 30px;
 }
 
 .open-menu {
     position: absolute;
-    
+    display: block;
     border-radius: 20px;
     color: white;
     width: 80%;
@@ -124,6 +124,7 @@ button {
     z-index: 3;
     background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
     top: 10PX;
+    text-decoration:none;
 }
 .open-menu p{
     display: block;
@@ -349,6 +350,7 @@ footer img {
     }
     #menu {
         display: block;
+        z-index: 4;
     }
     .nav-bar {
         display: none;
@@ -408,7 +410,9 @@ footer img {
         font-weight: bold;
     }
     #menu {
+        display: block;
         top: 35px;
+        z-index: 4;
     }
     #h1 {
         font-size: 1.5rem;
@@ -421,8 +425,14 @@ footer img {
     .element h3 {
         font-size: 1rem;
     }
+    .element p {
+        font-size: .8rem;
+    }
     #main2 div {
         margin-bottom: 60px;
         width: 90%;
+    }
+    #main2 p {
+        font-size: .8rem;
     }
 }

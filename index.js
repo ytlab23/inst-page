@@ -8,10 +8,13 @@ function changeMenu() {
     if (changeImg.getAttribute('src') === './main-menu.png')
         {
             changeImg.src = './reject_12091676.png';
-            navbar.classList.add('open-menu')
+            navbar.classList.remove('nav-bar');
+            navbar.classList.add('open-menu');
         }
     else if (changeImg.getAttribute('src') === './reject_12091676.png') {
-        changeImg.src = './main-menu.png'
+        changeImg.src = './main-menu.png';
+        navbar.classList.add('nav-bar');
+            navbar.classList.remove('open-menu');
     }
     
 }
