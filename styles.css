@@ -139,7 +139,7 @@ div p{
 }
 
 .element {
-    background-image: url('./7684b634496c54722f2eac8e2eeb2552.png');
+    /* background-image: url('./7684b634496c54722f2eac8e2eeb2552.png'); */
     background-size:contain; 
     background-position: center;
     background-repeat: no-repeat;
