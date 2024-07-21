@@ -10,12 +10,6 @@ body {
 
 
 /* header style  */
-.first-half {
-    /* background: linear-gradient(45deg, white, whitesmoke); */
-    /* padding: 1rem; */
-    /* background: linear-gradient(to right, #f58529, #feda75, #fa6c6c, #d62976, #962fbf); */
-
-}
 
 .header {
     display: grid;
