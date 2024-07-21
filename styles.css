@@ -398,6 +398,10 @@ footer img {
         width: 100%;
         border-radius: 30px;
     }
+    bottom {
+        font-size: 1rem;
+        padding: 1rem;
+    }
 }
 
 
@@ -434,5 +438,9 @@ footer img {
     }
     #main2 p {
         font-size: .8rem;
+    }
+    bottom {
+        font-size: 1rem;
+        padding: 1rem;
     }
 }
