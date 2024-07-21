@@ -71,6 +71,8 @@ button {
     color: #dc2743;
     font-size: 1rem;
     text-decoration: underline;
+    position: relative;
+    top: 30px;
 }
 
 div p{
@@ -253,7 +255,7 @@ footer img {
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1025px) {
     .head-base {
         width: 30%;
     }
