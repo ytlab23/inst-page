@@ -1,0 +1,48 @@
+html {
+    background-color: whitesmoke;
+}
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    font-size: bold;
+    color: black;
+    text-decoration: dotted;
+}
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    padding: 3rem;
+    border-radius: 30px;
+}
+
+span {
+    display: block;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+input {
+    padding: 2rem;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    width: 89%;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+    margin-top: 30px;
+    background-color: #f09433;
+    font-weight: bold;
+    font-size: 2rem;
+    color: white;
+}
