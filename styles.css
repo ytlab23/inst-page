@@ -1,0 +1,117 @@
+
+
+body {
+    /* padding: 1rem; */
+    margin: 0px;
+    background-color: white;
+    line-height: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* header style  */
+.first-half {
+    /* background: linear-gradient(45deg, white, whitesmoke); */
+    /* padding: 1rem; */
+    /* background: linear-gradient(to right, #f58529, #feda75, #fa6c6c, #d62976, #962fbf); */
+
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: space-between;   
+}
+
+header p{
+    font-size: 3rem;
+    font-weight: bold;
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+button {
+    border-radius: 10px;
+    border: none;
+    background-color: #bc1888;
+    color: white;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    position: fixed;
+    cursor: pointer;
+    top: 50%;
+    left: 0%;
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-bar p, span {
+    color: #dc2743;
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+div p{
+    display: inline-block;
+}
+
+/* header body  */
+.head-body {
+    display: flex;
+    justify-content: space-around;
+}
+.inst-img {
+    height: 600px;
+    width: 600px;
+    border-radius: 150px;
+    box-shadow: grey 2px 10px 10px 2px;
+}
+
+
+/* main body   */
+.main-body {
+    background-color: white;
+    display: grid;
+    justify-content:center; 
+}
+
+.element {
+    background-color: whitesmoke;
+    display: block;
+    width: 60%;
+    /* height: 600px; */
+}
+.element img {
+    height: 100px;
+    width: 100px;
+}
+
+.main-body2 {
+    
+}
+
+#main2 {
+    background-color: white;
+    display: flex;
+    justify-content:center; 
+    align-items: center;
+    margin-top: 20px;
+}
+#main2 div {
+    display: block;
+    /* background-color: whitesmoke; */
+    width: 60%;
+}
+#main2 img {
+    height: 100px;
+    width: 100px;
+}
+#main2 p {
+    background-color: whitesmoke;
+    padding: 1rem;
+    border-radius: 10px;
+}
