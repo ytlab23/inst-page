@@ -5,7 +5,7 @@ var changeImg = document.getElementById("changeImage");
 var navbar = document.getElementById('navBar');
 
 function changeMenu() {
-    if (changeImg.getAttribute('src') === './main-menu.png')
+    if (changeImg.getAttribute('src') === './img/main-menu.png')
         {
             changeImg.src = './reject_12091676.png';
             navbar.classList.remove('nav-bar');
