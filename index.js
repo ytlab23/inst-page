@@ -12,7 +12,7 @@ function changeMenu() {
             navbar.classList.add('open-menu');
         }
     else if (changeImg.getAttribute('src') === './img/reject_12091676.png') {
-        changeImg.src = './img/main-menu.png';
+        changeImg.src ='./img/main-menu.png' ;
         navbar.classList.add('nav-bar');
             navbar.classList.remove('open-menu');
     }
