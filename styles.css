@@ -312,7 +312,7 @@ footer h3{
 }
 footer p {
     color: black;
-    line-height: .4;
+    line-height: 1;
 }
 footer img {
     height: 30px;
