@@ -291,6 +291,9 @@ div p{
     padding: 1rem;
     border-radius: 10px;
 }
+#main2 a {
+color: blue;
+}
 
 /* footer stles  */
 footer{
@@ -322,7 +325,7 @@ footer img {
     border-radius: 50%;
 }
 .last {
-display: block 
+display: block;
 }
 
 
